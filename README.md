@@ -11,15 +11,15 @@ Sistema de entrada/salida que se activa al oscurecer.
 
 | ☀️ Con luz (1995 lux) → alarma apagada | 🌙 Oscuridad (36 lux) → ¡alarma activa! |
 |---|---|
-| ![Normal](Acto%204/captura_normal.png.png) | ![Alarma](Acto%204/captura_oscuridad.png.png) |
+| ![Normal](Act4/captura_normal.png.png) | ![Alarma](Act4/captura_oscuridad.png.png) |
 
 Circuito armado:
-![Circuito](Acto%204/captura_circuito.png.png)
+![Circuito](Act4/captura_circuito.png.png)
 
 ## 🐍 Mapa conceptual: Entradas y Salidas
 Generado 100% con Python (matplotlib), siguiendo las reglas del mapa conceptual: conceptos en cajas, jerarquía y palabras de enlace.
 
-![Mapa conceptual](Acto%204/Mapa_conceptual.png)
+![Mapa conceptual](Act4/Mapa_conceptual.png)
 
 ### Cómo generarlo
 
