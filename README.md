@@ -24,3 +24,13 @@ conceptual: conceptos en cajas, jerarquía y palabras de enlace.
 ![Mapa conceptual](mapa_conceptual.png)
 
 ### Cómo generarlo
+PIP Install Matplotlib
+Python mapa.py
+
+## 📁 Archivos
+| Archivo | Contenido |
+|---|---|
+| `alarma_ldr.ino` | Código Arduino del circuito |
+| `mapa.py` | Script que genera el mapa conceptual |
+| `mapa_conceptual.png` | Mapa conceptual final |
+| `captura_*.png` | Evidencias de la simulación |
