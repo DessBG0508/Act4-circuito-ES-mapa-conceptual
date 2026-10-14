@@ -5,32 +5,31 @@ Sistema de entrada/salida que se activa al oscurecer.
 
 - **Entrada:** fotorresistencia LDR (analógica, pin A0)
 - **Salidas:** LED (pin 13) + buzzer (pin 8)
-- **Lógica:** si la lectura analógica supera el umbral (400) significa
-  que hay oscuridad → el LED se enciende y el buzzer suena.
+- **Lógica:** si la lectura analógica supera el umbral (400) significa que hay oscuridad → el LED se enciende y el buzzer suena.
 
 **Simulación en Wokwi:** https://wokwi.com/projects/477884819777020929
 
 | ☀️ Con luz (1995 lux) → alarma apagada | 🌙 Oscuridad (36 lux) → ¡alarma activa! |
 |---|---|
-| ![Normal](captura_normal.png) | ![Alarma](captura_oscuridad.png) |
+| ![Normal](Acto%204/captura_normal.png.png) | ![Alarma](Acto%204/captura_oscuridad.png.png) |
 
 Circuito armado:
-![Circuito](captura_circuito.png)
+![Circuito](Acto%204/captura_circuito.png.png)
 
 ## 🐍 Mapa conceptual: Entradas y Salidas
-Generado 100% con Python (matplotlib), siguiendo las reglas del mapa
-conceptual: conceptos en cajas, jerarquía y palabras de enlace.
+Generado 100% con Python (matplotlib), siguiendo las reglas del mapa conceptual: conceptos en cajas, jerarquía y palabras de enlace.
 
-![Mapa conceptual](mapa_conceptual.png)
+![Mapa conceptual](Acto%204/Mapa_conceptual.png)
 
 ### Cómo generarlo
-PIP Install Matplotlib
-Python mapa.py
+
+    pip install matplotlib
+    python mapa.py
 
 ## 📁 Archivos
 | Archivo | Contenido |
 |---|---|
 | `alarma_ldr.ino` | Código Arduino del circuito |
 | `mapa.py` | Script que genera el mapa conceptual |
-| `mapa_conceptual.png` | Mapa conceptual final |
-| `captura_*.png` | Evidencias de la simulación |
+| `Mapa_conceptual.png` | Mapa conceptual final |
+| `captura_*.png.png` | Evidencias de la simulación |
